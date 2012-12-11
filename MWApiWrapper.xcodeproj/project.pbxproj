@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DB1EAB1166B30F1001AA4BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB1EAB0166B30F1001AA4BA /* UIKit.framework */; };
+		8DB1EAB3166B30F1001AA4BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB1EAB2166B30F1001AA4BA /* Foundation.framework */; };
+		8DB1EAB5166B30F1001AA4BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB1EAB4166B30F1001AA4BA /* CoreGraphics.framework */; };
+		8DB1EABB166B30F1001AA4BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DB1EAB9166B30F1001AA4BA /* InfoPlist.strings */; };
+		8DB1EABD166B30F1001AA4BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB1EABC166B30F1001AA4BA /* main.m */; };
+		8DB1EAC1166B30F1001AA4BA /* MWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB1EAC0166B30F1001AA4BA /* MWAppDelegate.m */; };
+		8DB1EAC3166B30F1001AA4BA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DB1EAC2166B30F1001AA4BA /* Default.png */; };
+		8DB1EAC5166B30F1001AA4BA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DB1EAC4166B30F1001AA4BA /* Default@2x.png */; };
+		8DB1EAC7166B30F1001AA4BA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DB1EAC6166B30F1001AA4BA /* Default-568h@2x.png */; };
+		8DB1EACF166B30F1001AA4BA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB1EACE166B30F1001AA4BA /* SenTestingKit.framework */; };
+		8DB1EAD0166B30F1001AA4BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB1EAB0166B30F1001AA4BA /* UIKit.framework */; };
+		8DB1EAD1166B30F1001AA4BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB1EAB2166B30F1001AA4BA /* Foundation.framework */; };
+		8DB1EAD9166B30F1001AA4BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DB1EAD7166B30F1001AA4BA /* InfoPlist.strings */; };
+		8DB1EADC166B30F1001AA4BA /* MWApiWrapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB1EADB166B30F1001AA4BA /* MWApiWrapperTests.m */; };
+		8DB1EB27166B3143001AA4BA /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB1EB26166B3143001AA4BA /* libxml2.dylib */; };
+		8DB1EB2B166B31F3001AA4BA /* libmwapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB1EB23166B3136001AA4BA /* libmwapi.a */; };
+		8DB1EB34166B37FE001AA4BA /* libmwapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB1EB23166B3136001AA4BA /* libmwapi.a */; };
+		8DB1EB39166B3A08001AA4BA /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB1EB26166B3143001AA4BA /* libxml2.dylib */; };
+		8DB1EB47166B3AAA001AA4BA /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DB1EB46166B3AAA001AA4BA /* test.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DB1EAD2166B30F1001AA4BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB1EAA3166B30F1001AA4BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB1EAAB166B30F1001AA4BA;
+			remoteInfo = MWApiWrapper;
+		};
+		8DB1EB22166B3136001AA4BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB1EB1A166B3136001AA4BA /* mwapi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D42F2D681648020B00131D98;
+			remoteInfo = mwapi;
+		};
+		8DB1EB24166B3136001AA4BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB1EB1A166B3136001AA4BA /* mwapi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D42F2D791648020C00131D98;
+			remoteInfo = mwapiTests;
+		};
+		8DB1EB29166B31EF001AA4BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB1EB1A166B3136001AA4BA /* mwapi.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D42F2D671648020B00131D98;
+			remoteInfo = mwapi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DB1EAAC166B30F1001AA4BA /* MWApiWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWApiWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB1EAB0166B30F1001AA4BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8DB1EAB2166B30F1001AA4BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8DB1EAB4166B30F1001AA4BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8DB1EAB8166B30F1001AA4BA /* MWApiWrapper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MWApiWrapper-Info.plist"; sourceTree = "<group>"; };
+		8DB1EABA166B30F1001AA4BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DB1EABC166B30F1001AA4BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DB1EABE166B30F1001AA4BA /* MWApiWrapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MWApiWrapper-Prefix.pch"; sourceTree = "<group>"; };
+		8DB1EABF166B30F1001AA4BA /* MWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWAppDelegate.h; sourceTree = "<group>"; };
+		8DB1EAC0166B30F1001AA4BA /* MWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWAppDelegate.m; sourceTree = "<group>"; };
+		8DB1EAC2166B30F1001AA4BA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8DB1EAC4166B30F1001AA4BA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8DB1EAC6166B30F1001AA4BA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8DB1EACD166B30F1001AA4BA /* MWApiWrapperTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MWApiWrapperTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB1EACE166B30F1001AA4BA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8DB1EAD6166B30F1001AA4BA /* MWApiWrapperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MWApiWrapperTests-Info.plist"; sourceTree = "<group>"; };
+		8DB1EAD8166B30F1001AA4BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DB1EADA166B30F1001AA4BA /* MWApiWrapperTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWApiWrapperTests.h; sourceTree = "<group>"; };
+		8DB1EADB166B30F1001AA4BA /* MWApiWrapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWApiWrapperTests.m; sourceTree = "<group>"; };
+		8DB1EB1A166B3136001AA4BA /* mwapi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mwapi.xcodeproj; path = "../mwapi-ios/mwapi.xcodeproj"; sourceTree = "<group>"; };
+		8DB1EB26166B3143001AA4BA /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		8DB1EB46166B3AAA001AA4BA /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test.png; path = MWApiWrapper/test.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DB1EAA9166B30F1001AA4BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB1EB2B166B31F3001AA4BA /* libmwapi.a in Frameworks */,
+				8DB1EB27166B3143001AA4BA /* libxml2.dylib in Frameworks */,
+				8DB1EAB1166B30F1001AA4BA /* UIKit.framework in Frameworks */,
+				8DB1EAB3166B30F1001AA4BA /* Foundation.framework in Frameworks */,
+				8DB1EAB5166B30F1001AA4BA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB1EAC9166B30F1001AA4BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB1EB39166B3A08001AA4BA /* libxml2.dylib in Frameworks */,
+				8DB1EB34166B37FE001AA4BA /* libmwapi.a in Frameworks */,
+				8DB1EACF166B30F1001AA4BA /* SenTestingKit.framework in Frameworks */,
+				8DB1EAD0166B30F1001AA4BA /* UIKit.framework in Frameworks */,
+				8DB1EAD1166B30F1001AA4BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DB1EAA1166B30F1001AA4BA = {
+			isa = PBXGroup;
+			children = (
+				8DB1EB26166B3143001AA4BA /* libxml2.dylib */,
+				8DB1EB1A166B3136001AA4BA /* mwapi.xcodeproj */,
+				8DB1EAB6166B30F1001AA4BA /* MWApiWrapper */,
+				8DB1EAD4166B30F1001AA4BA /* MWApiWrapperTests */,
+				8DB1EB44166B3A90001AA4BA /* Resources */,
+				8DB1EAAF166B30F1001AA4BA /* Frameworks */,
+				8DB1EAAD166B30F1001AA4BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DB1EAAD166B30F1001AA4BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DB1EAAC166B30F1001AA4BA /* MWApiWrapper.app */,
+				8DB1EACD166B30F1001AA4BA /* MWApiWrapperTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DB1EAAF166B30F1001AA4BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB1EAB0166B30F1001AA4BA /* UIKit.framework */,
+				8DB1EAB2166B30F1001AA4BA /* Foundation.framework */,
+				8DB1EAB4166B30F1001AA4BA /* CoreGraphics.framework */,
+				8DB1EACE166B30F1001AA4BA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DB1EAB6166B30F1001AA4BA /* MWApiWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				8DB1EABF166B30F1001AA4BA /* MWAppDelegate.h */,
+				8DB1EAC0166B30F1001AA4BA /* MWAppDelegate.m */,
+				8DB1EAB7166B30F1001AA4BA /* Supporting Files */,
+			);
+			path = MWApiWrapper;
+			sourceTree = "<group>";
+		};
+		8DB1EAB7166B30F1001AA4BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DB1EAB8166B30F1001AA4BA /* MWApiWrapper-Info.plist */,
+				8DB1EAB9166B30F1001AA4BA /* InfoPlist.strings */,
+				8DB1EABC166B30F1001AA4BA /* main.m */,
+				8DB1EABE166B30F1001AA4BA /* MWApiWrapper-Prefix.pch */,
+				8DB1EAC2166B30F1001AA4BA /* Default.png */,
+				8DB1EAC4166B30F1001AA4BA /* Default@2x.png */,
+				8DB1EAC6166B30F1001AA4BA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DB1EAD4166B30F1001AA4BA /* MWApiWrapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DB1EADA166B30F1001AA4BA /* MWApiWrapperTests.h */,
+				8DB1EADB166B30F1001AA4BA /* MWApiWrapperTests.m */,
+				8DB1EAD5166B30F1001AA4BA /* Supporting Files */,
+			);
+			path = MWApiWrapperTests;
+			sourceTree = "<group>";
+		};
+		8DB1EAD5166B30F1001AA4BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DB1EAD6166B30F1001AA4BA /* MWApiWrapperTests-Info.plist */,
+				8DB1EAD7166B30F1001AA4BA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DB1EB1B166B3136001AA4BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DB1EB23166B3136001AA4BA /* libmwapi.a */,
+				8DB1EB25166B3136001AA4BA /* mwapiTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DB1EB44166B3A90001AA4BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DB1EB45166B3A9D001AA4BA /* Graphics */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8DB1EB45166B3A9D001AA4BA /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				8DB1EB46166B3AAA001AA4BA /* test.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DB1EAAB166B30F1001AA4BA /* MWApiWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB1EADF166B30F1001AA4BA /* Build configuration list for PBXNativeTarget "MWApiWrapper" */;
+			buildPhases = (
+				8DB1EAA8166B30F1001AA4BA /* Sources */,
+				8DB1EAA9166B30F1001AA4BA /* Frameworks */,
+				8DB1EAAA166B30F1001AA4BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DB1EB2A166B31EF001AA4BA /* PBXTargetDependency */,
+			);
+			name = MWApiWrapper;
+			productName = MWApiWrapper;
+			productReference = 8DB1EAAC166B30F1001AA4BA /* MWApiWrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DB1EACC166B30F1001AA4BA /* MWApiWrapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB1EAE2166B30F1001AA4BA /* Build configuration list for PBXNativeTarget "MWApiWrapperTests" */;
+			buildPhases = (
+				8DB1EAC8166B30F1001AA4BA /* Sources */,
+				8DB1EAC9166B30F1001AA4BA /* Frameworks */,
+				8DB1EACA166B30F1001AA4BA /* Resources */,
+				8DB1EACB166B30F1001AA4BA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DB1EAD3166B30F1001AA4BA /* PBXTargetDependency */,
+			);
+			name = MWApiWrapperTests;
+			productName = MWApiWrapperTests;
+			productReference = 8DB1EACD166B30F1001AA4BA /* MWApiWrapperTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DB1EAA3166B30F1001AA4BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MW;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = WikiMedia;
+			};
+			buildConfigurationList = 8DB1EAA6166B30F1001AA4BA /* Build configuration list for PBXProject "MWApiWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8DB1EAA1166B30F1001AA4BA;
+			productRefGroup = 8DB1EAAD166B30F1001AA4BA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8DB1EB1B166B3136001AA4BA /* Products */;
+					ProjectRef = 8DB1EB1A166B3136001AA4BA /* mwapi.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8DB1EAAB166B30F1001AA4BA /* MWApiWrapper */,
+				8DB1EACC166B30F1001AA4BA /* MWApiWrapperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8DB1EB23166B3136001AA4BA /* libmwapi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmwapi.a;
+			remoteRef = 8DB1EB22166B3136001AA4BA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8DB1EB25166B3136001AA4BA /* mwapiTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = mwapiTests.octest;
+			remoteRef = 8DB1EB24166B3136001AA4BA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DB1EAAA166B30F1001AA4BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB1EABB166B30F1001AA4BA /* InfoPlist.strings in Resources */,
+				8DB1EAC3166B30F1001AA4BA /* Default.png in Resources */,
+				8DB1EAC5166B30F1001AA4BA /* Default@2x.png in Resources */,
+				8DB1EAC7166B30F1001AA4BA /* Default-568h@2x.png in Resources */,
+				8DB1EB47166B3AAA001AA4BA /* test.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB1EACA166B30F1001AA4BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB1EAD9166B30F1001AA4BA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DB1EACB166B30F1001AA4BA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DB1EAA8166B30F1001AA4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB1EABD166B30F1001AA4BA /* main.m in Sources */,
+				8DB1EAC1166B30F1001AA4BA /* MWAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB1EAC8166B30F1001AA4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB1EADC166B30F1001AA4BA /* MWApiWrapperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DB1EAD3166B30F1001AA4BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DB1EAAB166B30F1001AA4BA /* MWApiWrapper */;
+			targetProxy = 8DB1EAD2166B30F1001AA4BA /* PBXContainerItemProxy */;
+		};
+		8DB1EB2A166B31EF001AA4BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mwapi;
+			targetProxy = 8DB1EB29166B31EF001AA4BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DB1EAB9166B30F1001AA4BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DB1EABA166B30F1001AA4BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8DB1EAD7166B30F1001AA4BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DB1EAD8166B30F1001AA4BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DB1EADD166B30F1001AA4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DB1EADE166B30F1001AA4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DB1EAE0166B30F1001AA4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MWApiWrapper/MWApiWrapper-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "MWApiWrapper/MWApiWrapper-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8DB1EAE1166B30F1001AA4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MWApiWrapper/MWApiWrapper-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "MWApiWrapper/MWApiWrapper-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8DB1EAE3166B30F1001AA4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MWApiWrapper.app/MWApiWrapper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MWApiWrapper/MWApiWrapper-Prefix.pch";
+				INFOPLIST_FILE = "MWApiWrapperTests/MWApiWrapperTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8DB1EAE4166B30F1001AA4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MWApiWrapper.app/MWApiWrapper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MWApiWrapper/MWApiWrapper-Prefix.pch";
+				INFOPLIST_FILE = "MWApiWrapperTests/MWApiWrapperTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DB1EAA6166B30F1001AA4BA /* Build configuration list for PBXProject "MWApiWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB1EADD166B30F1001AA4BA /* Debug */,
+				8DB1EADE166B30F1001AA4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB1EADF166B30F1001AA4BA /* Build configuration list for PBXNativeTarget "MWApiWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB1EAE0166B30F1001AA4BA /* Debug */,
+				8DB1EAE1166B30F1001AA4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB1EAE2166B30F1001AA4BA /* Build configuration list for PBXNativeTarget "MWApiWrapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB1EAE3166B30F1001AA4BA /* Debug */,
+				8DB1EAE4166B30F1001AA4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DB1EAA3166B30F1001AA4BA /* Project object */;
+}
